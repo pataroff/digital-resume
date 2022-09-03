@@ -51,6 +51,7 @@ li {
 #container--main {
     max-width: 700px;
     margin: 0 auto;
+    padding: 1em;
 }
 
 .section--page {
@@ -93,6 +94,7 @@ li {
 }
 
 #socials--list a{
+    font-weight:300;
     font-size:0.9em;
     color: var(--secondaryTextColor);
     transition: 0.3s;
@@ -110,7 +112,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    font-size: 0.9 em;
+    font-size: 0.9em;
 }
 
 .card--techstack{
@@ -147,8 +149,14 @@ li {
 }
 
 @media (max-width: 600px){
+    .section--page{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
     #wrapper--hero{
-        flex-direction: column;
+        display: flex;
+        align-items: center;
         gap: 1em;
     }
 
@@ -157,12 +165,12 @@ li {
         height: 200px;
     }
 
-    .section--page{
-        padding-top: 1em;
-        padding-bottom: 1em;
+    #wrapper--hero{
+        flex-direction: column;
     }
 
     .card--work-history{
         border-left: none;
+        padding-left: 0;
     }
 }
