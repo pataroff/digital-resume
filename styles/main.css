@@ -127,13 +127,13 @@ li {
 
 .qualifications--list h5{
     font-size: 0.9em;
-    color: var(--mainTextColor-dark);
+    color: var(--mainTextColor);
 }
 
 .qualifications--list p {
     font-size: 0.9em;
     font-weight: 300;
-    color: var(--mainTextColor-dark);
+    color: var(--mainTextColor);
 }
 
 .qualifications--list ul {
@@ -155,13 +155,13 @@ li {
 
 
 .card--work-history p{
-    color: var(--mainTextColor-dark);
+    color: var(--mainTextColor);
     font-size:0.9em;
     font-weight:300;
 }
 
 .card--work-history strong{
-    color: var(--mainTextColor-dark);
+    color: var(--mainTextColor);
     font-size:0.9em;
 }
 
@@ -184,6 +184,8 @@ li {
 .card--project a{
     color: var(--mainTextColor);
     transition: 0.3s;
+    font-size: 0.9em;
+    font-weight:300;
 }
 
 .card--project a:hover{
