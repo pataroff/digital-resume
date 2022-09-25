@@ -178,7 +178,6 @@ li {
 .card--project{
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top: 1px solid var(--mainBorderColor);
 }
 
 .card--project a{
@@ -206,11 +205,16 @@ li {
 
     #profile-pic{
         width:200px;
-        height: 200px;
+        height: 210px;
     }
 
     #wrapper--hero{
         flex-direction: column;
+    }
+
+    .qualifications--list{
+        border-left: none;
+        padding-left: 0;
     }
 
     .card--work-history{
