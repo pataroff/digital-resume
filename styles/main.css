@@ -212,6 +212,13 @@ li {
     flex-direction: column;
   }
 
+  #wrapper--techstack__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+  }
+
   .qualifications--list {
     border-left: none;
     padding-left: 0;
