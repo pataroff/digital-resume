@@ -56,8 +56,8 @@ li {
 }
 
 .section--page {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 #wrapper--hero {
@@ -68,8 +68,8 @@ li {
 
 #profile-pic {
   border-radius: 50%;
-  width: 150px;
-  height: 160px;
+  width: 170px;
+  height: 180px;
   object-position: top;
   object-fit: cover;
 }
@@ -80,6 +80,13 @@ li {
 
 #user-name {
   font-size: 48px;
+  line-height: 1em;
+  margin: 0;
+}
+
+#title {
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1em;
 }
 
