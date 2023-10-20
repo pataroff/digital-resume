@@ -129,6 +129,12 @@ li {
   font-size: 0.9em;
 }
 
+#wrapper--projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 .card--techstack {
   border: 1px solid var(--mainBorderColor);
   padding: 0.5em 1em;
@@ -196,9 +202,11 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid var(--mainBorderColor);
+  border-radius: 10px;
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 0.5em;
+  padding-left: 1em;
 }
 
 .card--project small {
@@ -215,6 +223,13 @@ li {
 
 .card--project a:hover {
   text-decoration: underline;
+}
+
+.link-group {
+  display: flex;
+  text-wrap: nowrap;
+  gap: 1.5em;
+  padding-right: 1.5em;
 }
 
 @media (max-width: 600px) {
@@ -255,10 +270,18 @@ li {
     padding-left: 0;
   }
 
+  .card--project {
+    padding-left: 1em;
+  }
+
   .card--project a {
     color: var(--mainTextColor);
     transition: 0.3s;
     font-size: 0.75em;
     font-weight: 300;
+  }
+
+  .link-group {
+    padding-right: 1em;
   }
 }
