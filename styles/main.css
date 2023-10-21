@@ -222,7 +222,7 @@ li {
 
 .link-group {
   display: flex;
-  text-wrap: nowrap;
+  white-space: nowrap;
   gap: 1.5em;
   padding-right: 1.5em;
 }
@@ -289,6 +289,5 @@ li {
 
   .link-group {
     padding-right: 1em;
-    padding-left: 1.5em;
   }
 }
