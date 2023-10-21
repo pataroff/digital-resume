@@ -283,5 +283,6 @@ li {
 
   .link-group {
     padding-right: 1em;
+    text-wrap: nowrap;
   }
 }
