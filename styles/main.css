@@ -50,11 +50,6 @@ a:hover {
   color: var(--mainLinkColor);
 }
 
-.external-link-icon {
-  width: 15px;
-  height: 15px;
-}
-
 li {
   line-height: 1.9em;
 }
@@ -227,10 +222,20 @@ li {
 
 .link-group {
   display: flex;
-  flex-wrap: nowrap;
   text-wrap: nowrap;
   gap: 1.5em;
   padding-right: 1.5em;
+}
+
+.external-link-icon {
+  width: 15px;
+  height: 15px;
+}
+
+.external-link {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
 }
 
 @media (max-width: 600px) {
@@ -284,5 +289,6 @@ li {
 
   .link-group {
     padding-right: 1em;
+    padding-left: 1.5em;
   }
 }
