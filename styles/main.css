@@ -42,7 +42,6 @@ li {
 a {
   text-decoration: none;
   color: var(--secondaryTextColor);
-  font-size: 500;
 }
 
 a:hover {
@@ -248,7 +247,6 @@ li {
 .card--testimonial {
   display: flex;
   flex-direction: column;
-  padding: 1em;
 }
 
 .card--testimonial p {
