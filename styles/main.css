@@ -130,6 +130,13 @@ li {
   gap: 1em;
 }
 
+#wrapper--testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 0.9em;
+}
+
 .card--techstack {
   border: 1px solid var(--mainBorderColor);
   padding: 0.5em 1em;
@@ -236,6 +243,38 @@ li {
   display: flex;
   gap: 0.5em;
   align-items: center;
+}
+
+.card--testimonial {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.card--testimonial p {
+  color: var(--mainTextColor);
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.card--testimonial a {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.card--testimonial small {
+  color: var(--secondaryTextColor);
+  font-weight: 300;
+}
+
+.card--testimonial a:hover {
+  color: var(--mainTextColor);
+}
+
+.quote-author {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 @media (max-width: 600px) {
