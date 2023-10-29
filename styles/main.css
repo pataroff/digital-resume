@@ -69,6 +69,11 @@ i {
   color: var(--secondaryTextColor);
 }
 
+video {
+  height: auto;
+  max-width: 100%;
+}
+
 .section--page {
   padding-top: 2em;
   padding-bottom: 2em;
