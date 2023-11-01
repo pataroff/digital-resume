@@ -470,21 +470,16 @@
           and expand its features in line with Innotopia's vision.
         </p>
 
-        <ul>
-          <li>
-            <a
-              href="https://github.com/iwwan-01/innotopia-website"
-              target="_blank"
-              >Source Code</a
-            >
-          </li>
-          <li>
-            <a href="https://innotopia.tech" target="_blank">Live Preview</a>
-          </li>
-        </ul>
+        <a href="javascript:void(0)" onclick="javascript:scrollToTop()"
+          >&#x21a5; Back To Top</a
+        >
       </article>
     </div>
     <script>
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
       function readingTime() {
         const text = document.getElementById('article').innerText;
         const wpm = 238;
