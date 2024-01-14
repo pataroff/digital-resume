@@ -106,7 +106,7 @@ video {
 #title {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1em;
+  line-height: 1.5em;
 }
 
 #email {
@@ -201,7 +201,6 @@ video {
 
 .card--work-history strong {
   color: var(--mainTextColor);
-  font-size: 0.9em;
 }
 
 .card--work-history li {
