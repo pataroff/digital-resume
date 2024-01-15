@@ -193,6 +193,10 @@ video {
   padding-left: 2em;
 }
 
+.card--work-history span {
+  color: var(--mainTextColor);
+}
+
 .card--work-history p {
   color: var(--mainTextColor);
   font-size: 0.9em;
