@@ -207,9 +207,14 @@ video {
   color: var(--mainTextColor);
 }
 
+.card--work-history ul {
+  padding-left: 0;
+}
+
 .card--work-history li {
   font-weight: 300;
   font-size: 0.9em;
+  list-style: none;
 }
 
 .line-break {
