@@ -86,14 +86,13 @@ video {
 }
 
 #profile-pic {
-  border-radius: 2rem;
-  border-style: solid;
-  border-width: 4px;
-  border-color: white;
+  border-radius: 50%;
   width: 190px;
   height: 190px;
   object-position: top;
   object-fit: cover;
+  /* @TODO: Add more shadows! */
+  box-shadow: 0px 2px 4px black;
 }
 
 #bio {
