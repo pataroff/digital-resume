@@ -86,8 +86,11 @@ video {
 }
 
 #profile-pic {
-  border-radius: 50%;
-  width: 180px;
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 4px;
+  border-color: white;
+  width: 190px;
   height: 190px;
   object-position: top;
   object-fit: cover;
@@ -115,7 +118,7 @@ video {
 
 #socials--list {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   column-gap: 1em;
   flex-wrap: wrap;
 }
@@ -276,6 +279,8 @@ video {
   color: var(--mainTextColor);
   font-size: 0.9em;
   font-weight: 300;
+  text-align: center;
+  text-wrap: balance;
 }
 
 .card--testimonial a {
