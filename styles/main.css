@@ -32,6 +32,12 @@ body {
   background-color: var(--mainBGColor);
 }
 
+ul {
+  list-style-type: disc;
+  margin-left: 1.5em; /* ensure bullets are indented */
+  padding-left: 0; /* remove default padding */
+}
+
 p,
 span,
 li {
@@ -214,9 +220,13 @@ video {
 }
 
 .card--work-history li {
-  font-weight: 300;
+  color: var(--mainTextColor);
+  font-weight: 200;
   font-size: 0.9em;
-  list-style: none;
+}
+
+.card--work-history span {
+  font-weight: 700;
 }
 
 .line-break {
