@@ -66,7 +66,7 @@ img {
 }
 
 #container--main {
-  max-width: 700px;
+  max-width: 750px;
   margin: 0 auto;
   padding: 1em;
 }
@@ -159,10 +159,12 @@ video {
 }
 
 .card--techstack {
+  width: 100%;
   border: 1px solid var(--mainBorderColor);
-  padding: 0.5em 1em;
+  padding: 0.5em 1em 1em 1em;
   border-radius: 5px;
   font-weight: 300;
+  white-space: nowrap;
 }
 
 .qualifications--list {
@@ -200,10 +202,6 @@ video {
   padding-left: 2em;
 }
 
-.card--work-history span {
-  color: var(--mainTextColor);
-}
-
 .card--work-history p {
   color: var(--mainTextColor);
   font-size: 0.9em;
@@ -212,6 +210,7 @@ video {
 
 .card--work-history strong {
   color: var(--mainTextColor);
+  font-weight: 700;
 }
 
 .card--work-history ul {
@@ -224,8 +223,12 @@ video {
   font-size: 0.9em;
 }
 
-.card--work-history span {
-  font-weight: 700;
+.card--work-history a {
+  color: var(--mainLinkColor-dark);
+}
+
+.card--work-history a:hover {
+  text-decoration: underline;
 }
 
 .line-break {
@@ -242,6 +245,13 @@ video {
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 1em;
+  padding-right: 1.5em;
+}
+
+.card--project--item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
 }
 
 .card--project small {
@@ -258,13 +268,6 @@ video {
 
 .card--project a:hover {
   text-decoration: underline;
-}
-
-.link-group {
-  display: flex;
-  white-space: nowrap;
-  gap: 1.5em;
-  padding-right: 1.5em;
 }
 
 .external-link-icon {
@@ -309,6 +312,7 @@ video {
   display: flex;
   flex-direction: column;
   align-items: end;
+  padding-top: 0.5em;
 }
 
 @media (max-width: 600px) {

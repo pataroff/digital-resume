@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <!-- Google tag (gtag.js) -->
@@ -27,7 +27,7 @@
       media="screen"
       href="./styles/main.css"
     />
-    <!-- <script defer src="./scripts/main.js"></script> -->
+    <script defer src="./scripts/main.js"></script>
   </head>
   <body>
     <div id="container--main">
@@ -45,8 +45,10 @@
             ⚙️ React / React Native, TypeScript, Express, Node.js
           </h3>
           <p id="bio">
-            🚀 Building fast, beautiful, and scalable digital experiences.
+            🚀 Building fast, beautiful and scalable digital experiences that
+            solve real-world problems.
           </p>
+          <p>💡 Have an idea? Let’s build it together.</p>
           <a id="email" href="mailto:hello@pataroff.com"
             >👉🏻 hello@pataroff.com</a
           >
@@ -73,29 +75,37 @@
             <h3>Languages</h3>
             <span
               >HTML, CSS, <br />
-              JavaScript, TypeScript
+              JavaScript, <br />
+              TypeScript
             </span>
           </div>
 
           <div class="card--techstack">
             <h3>Front-End</h3>
-            <span
-              >Next.js / Vike, <br />
-              React / React Native, Redux, Tailwind CSS, <br />
+            <span>
+              Next.js / Vike, <br />
+              React / React Native, <br />
+              Redux, Tailwind CSS, <br />
               Framer Motion</span
             >
           </div>
 
           <div class="card--techstack">
             <h3>Back-End</h3>
-            <span>Cloudflare Workers, <br />Express, Node.js</span>
+            <span
+              >Cloudflare Workers, <br />
+              Express, <br />
+              Node.js</span
+            >
           </div>
 
           <div class="card--techstack">
             <h3>Databases</h3>
             <span
               >Cloudflare D1, <br />
-              Supabase, PocketBase, MongoDB</span
+              Supabase,<br />
+              PocketBase, <br />
+              MongoDB</span
             >
           </div>
         </div>
@@ -106,59 +116,43 @@
 
         <div id="wrapper--projects">
           <div class="card--project">
-            <div>
+            <div class="card--project--item">
               <strong>Releafe App</strong>
-              <br />
               <small>Mobile App Development</small>
             </div>
-            <div class="link-group">
-              <a href="/projects/releafe-app.html">Learn More</a>
-              <a
-                href="https://snack.expo.dev/@iwwan_01/releafe-app-v0_0_1"
-                target="_blank"
-                >Preview</a
-              >
-            </div>
+            <a
+              href="https://snack.expo.dev/@iwwan_01/releafe-app-v0_0_1"
+              target="_blank"
+              >View Live</a
+            >
           </div>
 
           <div class="card--project">
-            <div>
+            <div class="card--project--item">
               <strong>Releafe Website</strong>
-              <br />
               <small>Web Design & Development</small>
             </div>
-            <div class="link-group">
-              <a href="/projects/releafe-website.html">Learn More</a>
-              <a href="https://releafe.nl" target="_blank">Preview</a>
-            </div>
+            <a href="https://releafe.nl" target="_blank">View Live</a>
           </div>
 
           <div class="card--project">
-            <div>
+            <div class="card--project--item">
               <strong>Elev8x Website</strong>
-              <br />
               <small>Web Design & Development</small>
             </div>
-            <div class="link-group">
-              <a href="/projects/elev8x-website.html">Learn More</a>
-              <a
-                href="https://elev8x-website-ooqxag9tk-iwwan-01.vercel.app/"
-                target="_blank"
-                >Preview</a
-              >
-            </div>
+            <a
+              href="https://elev8x-website-ooqxag9tk-iwwan-01.vercel.app/"
+              target="_blank"
+              >View Live</a
+            >
           </div>
 
           <div class="card--project">
-            <div>
+            <div class="card--project--item">
               <strong>Innotopia Website</strong>
-              <br />
               <small>Web Design & Development</small>
             </div>
-            <div class="link-group">
-              <a href="/projects/innotopia-website.html">Learn More</a>
-              <a href="https://innotopia.tech" target="_blank">Preview</a>
-            </div>
+            <a href="https://innotopia.tech" target="_blank">View Live</a>
           </div>
         </div>
       </section>
@@ -168,26 +162,7 @@
 
         <div id="wrapper--testimonials">
           <blockquote class="card--testimonial">
-            <p style="color: white">
-              "Working with Ivan on our website has been a great experience. He
-              delivered excellent work and really listened to what we wanted,
-              translating our ideas into a site that fits us perfectly. What we
-              appreciate most is that he set everything up in a way that makes
-              it easy for us to manage and make adjustments ourselves going
-              forward. A reliable and skilled professional we can highly
-              recommend."
-            </p>
-            <br />
-            <div class="quote-author">
-              <a href="https://www.linkedin.com/in/nynkedijk/" target="_blank">
-                - Nynke Dijk
-              </a>
-              <small> Businesspartner | Releafe</small>
-            </div>
-          </blockquote>
-
-          <blockquote class="card--testimonial">
-            <p style="color: white">
+            <p>
               "Working with Ivan has been a real pleasure. He is thorough and
               brings a critical yet constructive perspective. He takes the
               initiative to propose smart solutions and, being both creative and
@@ -197,7 +172,6 @@
               strong expertise with great social skills. A reliable and skilled
               professional we truly enjoyed working with."
             </p>
-            <br />
             <div class="quote-author">
               <a
                 href="https://www.linkedin.com/in/jan-grobbe-b9158322/"
@@ -210,14 +184,31 @@
           </blockquote>
 
           <blockquote class="card--testimonial">
-            <p style="color: white">
+            <p>
+              "Working with Ivan on our website has been a great experience. He
+              delivered excellent work and really listened to what we wanted,
+              translating our ideas into a site that fits us perfectly. What we
+              appreciate most is that he set everything up in a way that makes
+              it easy for us to manage and make adjustments ourselves going
+              forward. A reliable and skilled professional we can highly
+              recommend."
+            </p>
+            <div class="quote-author">
+              <a href="https://www.linkedin.com/in/nynkedijk/" target="_blank">
+                - Nynke Dijk
+              </a>
+              <small>Businesspartner | Releafe</small>
+            </div>
+          </blockquote>
+
+          <blockquote class="card--testimonial">
+            <p>
               "Ivan guided us through the process with a crafty attitude and
               clear communication. He made the entire team part of the design
               process, which is a rare quality. We are happy with the results
               and our team can count on a strong online presence with the new
               website."
             </p>
-            <br />
             <div class="quote-author">
               <a
                 href="https://www.linkedin.com/in/merijndeboer/"
@@ -240,7 +231,6 @@
               proactivity showed as he presented multiple solutions. I can’t
               recommend his services enough.”
             </p>
-            <br />
             <div class="quote-author">
               <a
                 href="https://www.linkedin.com/in/kristiyan-petrov-146770184/"
@@ -278,22 +268,27 @@
           <p>Jul 2025 - Present</p>
           <ul>
             <li>
-              <span>
-                Leading development of multiple SaaS products from concept to
-                production</span
+              <strong>
+                Leading development of 2+ SaaS products from concept to
+                production</strong
               >, delivering simple, maintainable, and cost-efficient setups for
               early-stage idea validation
             </li>
             <li>
-              Delivered
-              <span> MVPs and prototypes for founders and entrepreneurs</span>,
-              validating ideas and technical feasibility
+              <strong>
+                Delivered 3+ MVPs and prototypes for founders and
+                entrepreneurs</strong
+              >, validating ideas and technical feasibility
             </li>
             <li>
-              Designed and built the
-              <span> Releafe marketing website end-to-end </span>
-              using Next.js and Sanity CMS, enabling content updates without
-              engineering intervention
+              <strong>
+                Designed and built the
+                <a href="https://releafe.nl" target="_blank">
+                  Releafe marketing website</a
+                >
+                end-to-end</strong
+              >, enabling content updates without engineering intervention
+              <em>(Next.js, Sanity CMS)</em>
             </li>
           </ul>
         </div>
@@ -306,23 +301,31 @@
           <p>Jan 2024 - Jun 2025 • 1 yr 6 mos</p>
           <ul>
             <li>
-              <span>Sole engineer for Releafe</span>, a mental well-being mobile
-              application, owning technical direction and MVP delivery
+              <strong
+                >Sole engineer for
+                <a href="https://releafe.nl/ontdek-releafe">Releafe</a></strong
+              >, a mental well-being mobile application, owning technical
+              direction and MVP delivery
             </li>
             <li>
-              <span>Architected and shipped the MVP </span>
-              using React Native and Expo, establishing patterns for rapid
-              feature iteration while maintaining code stability
+              <strong
+                >Architected and shipped the MVP to 100+ closed beta
+                users</strong
+              >, establishing patterns for rapid feature iteration while
+              maintaining code stability
+              <em>(React Native, Expo, PocketBase)</em>
             </li>
             <li>
-              <span>Owned long-term technical decisions</span> across the
+              <strong>Owned long-term technical decisions</strong> across the
               product lifecycle, including state management, API integration,
               and release workflows
             </li>
             <li>
-              <span>Worked directly with the product manager and client</span>,
-              translating evolving product requirements into maintainable
-              technical solutions while mentoring intern contributions
+              <strong
+                >Worked directly with the product manager and client</strong
+              >, translating evolving product requirements into maintainable
+              technical solutions while
+              <strong>mentoring intern contributions</strong>
             </li>
           </ul>
         </div>
@@ -334,14 +337,14 @@
           <p>Jul 2023 - Dec 2023 • 6 mos</p>
           <ul>
             <li>
-              Joined an existing
-              <span> React Native codebase </span>
-              for an event-focused social platform
+              <strong>Joined an existing production codebase </strong>
+              for an event-focused social platform startup
             </li>
             <li>
-              Implemented <span>push notification functionality</span>,
+              <strong>Implemented push notification functionality</strong>,
               integrating seamlessly with existing architecture and release
-              processes without disrupting ongoing development
+              processes <strong> without disrupting ongoing development</strong>
+              <em>(React Native)</em>
             </li>
           </ul>
         </div>
